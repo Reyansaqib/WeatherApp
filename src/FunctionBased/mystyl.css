@@ -1,0 +1,106 @@
+
+.background{
+    margin-top: 5%;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/banner.webp);
+    
+}
+.first{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+input{
+    width:30vw;
+    text-align: center;
+    height: 9vh;
+    margin: 20px;
+}
+.first button{
+    background-color: rgb(143, 177, 65);
+    color: white;
+    width:20%;
+    border-radius: 5px solid white;
+
+}
+.first button:hover{
+    background-color: black;
+   
+
+}
+.second{
+    display: grid;
+    place-items: center;
+    
+}
+li{
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font: 100;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:solid;
+    list-style-type: none;
+}
+img{
+    height: 20vh;
+    width: 10vw;
+}
+.profilepic{
+    display:grid;
+    place-items: center;
+}
+.profilepic img{
+    height: 50vh;
+    width: 30vw;
+}
+.profiledetails{
+    display: grid;
+    place-items: center;
+    
+}
+.profiledetails h1{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+.profiledetails p{
+    color: white;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+
+}
+.profiledetails a{
+    text-decoration: none;
+    color: rgb(6, 250, 26);
+    font-size: larger;
+    font-style: oblique;
+}
+.main{
+    margin-top: 5.5%;
+}
+.main a{
+    text-decoration: none;
+    color: brown;
+
+}
+.main a:hover{
+    color: yellow;
+    transition: 0.2s;
+}
+.links a{
+    color: white;
+
+}
+.links a:hover{
+    color: yellow;
+    transition: .4s;
+
+}
+.size{
+    font-size: 40px;
+}
